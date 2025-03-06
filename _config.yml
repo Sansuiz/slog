@@ -1,0 +1,20 @@
+title: 技术日志
+description: 记录全栈开发的技术实践
+baseurl: /
+url: https://yourdomain.com
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+collections:
+  posts:
+    output: true
+    permalink: /posts/:year/:month/:title/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
