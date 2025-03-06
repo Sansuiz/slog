@@ -2,11 +2,25 @@
 .receipt-container {
   font-family: 'Courier New', monospace;
   max-width: 300px;
-  margin: 2rem auto;
+  margin: auto;
   padding: 20px;
   background: #fff8e1;
   border: 2px dashed #666;
   box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media (max-width: 480px) {
+  .receipt-container {
+    width: 90%;
+    padding: 15px;
+    margin: 20px auto;
+    position: static;
+    transform: none;
+  }
 }
 
 .receipt-header {
