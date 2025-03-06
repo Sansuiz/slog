@@ -1,0 +1,15 @@
+body {
+    background: url('../images/bg.png');
+    color: #333;
+  }
+  
+  .post {
+    border-left: 3px solid #eee;
+    padding-left: 1rem;
+  }
+  
+  .comments {
+    margin-top: 2rem;
+    padding: 1rem;
+    background: #f5f5f5;
+  }

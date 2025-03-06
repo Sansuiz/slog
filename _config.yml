@@ -1,0 +1,8 @@
+title: 好事发生
+theme: minima
+plugins:
+  - jekyll-archives
+collections:
+  posts:
+    output: true
+permalink: /:year/:month/:title/
