@@ -1,7 +1,7 @@
 title: 技术日志
 description: 记录全栈开发的技术实践
-baseurl: /
-url: https://yourdomain.com
+baseurl: /wenji # the subpath of your site, e.g. /blog/
+url: https://buyivi.xyz # the base hostname & protocol for your site
 markdown: kramdown
 theme: minima
 plugins:
